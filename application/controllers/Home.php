@@ -9,10 +9,21 @@ class Home extends CI_Controller {
 
 
 		//Coloca a string dentro de dados na posição 'titulo'
-		$dados['titulo'] = "Página Inicial";
+		$dados['titulo'] = "Furry Shop";
+		//Coloca a string dentro de dados na posição 'subtitulo'
+		$dados['subtitulo'] = "Produtos";
+		
 
-		//Carrega o arquivo Home da pasta views
-		$this->load->view('Home', $dados);
+		//carrega o model de produtos(Produtos_model.php) com nome de modelprodutos
+		//$this->load->model('Produtos_model','modelprodutos');
+		//chama a função listar produtos do model e coloca em 'produtos'
+		//$dados['produtos'] = $this->modelprodutos->listar_produtos();
+
+
+		////Carrega os arquivos html-header, home da pasta views
+		//passa dados para que a página possa acessar
+		$this->load->view('template/html-header', $dados); //A pasta template contem o que será usado em todas as páginas
+		$this->load->view('home');
 
 
 
