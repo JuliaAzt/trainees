@@ -20,7 +20,7 @@
         
         <!-- Produto 1 -->
         <hr>
-        <h3> Ração Golden Gatos Adultos Carne - 1 Kg </h3>
+        <h3> <?php echo $produtos[0]->nome ?> </h3>
         <h4> R$99.9 </h4>
         - Ração premium especial para gatos adultos;<br>
         - Trato urinário saudável;<br>
@@ -36,7 +36,7 @@
 
         <!-- Produto 2 -->
         <hr>
-        <h3> Ração Golden DUO Gatos Adultos - Salmão e Cordeiro </h3>
+        <h3> <?php echo $produtos[1]->nome ?>  </h3>
         <h4> R$112.9 </h4>
         - Alimento premium especial indicado para gatos adultos; <br>
         - Pelagem bonita e pelos saudáveis com ácidos graxos essenciais Omega 3 e 6;<br>
@@ -50,7 +50,7 @@
         
         <!-- Produto 3 -->
         <hr>
-        <h3> Ração Guabi Gran Plus Frango e Arroz para Gatos Castrados Adultos </h3>
+        <h3> <?php echo $produtos[2]->nome ?>  </h3>
         <h4> R$17.8 </h4>
         - Indicada para gatos adultos castrados;<br>
         - Energia reduzida para gatos castrados ou que vivem em ambientes internos;<br>
@@ -62,7 +62,8 @@
 
         <!-- Produto 4 -->
         <hr>
-        <h3> Ração Golden Gatos Adultos Frango </h3>
+
+        <h3> <?php echo $produtos[3]->nome ?> </h3>
         <h4> R$16.7 </h4>
         - Indicada para gatos adultos ;<br>
         - Energia reduzida para gatos ;<br>

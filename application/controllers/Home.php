@@ -15,9 +15,9 @@ class Home extends CI_Controller {
 		
 
 		//carrega o model de produtos(Produtos_model.php) com nome de modelprodutos
-		//$this->load->model('Produtos_model','modelprodutos');
+		$this->load->model('Produtos_model','modelprodutos');
 		//chama a função listar produtos do model e coloca em 'produtos'
-		//$dados['produtos'] = $this->modelprodutos->listar_produtos();
+		$dados['produtos'] = $this->modelprodutos->listar_produtos();
 
 
 		////Carrega os arquivos html-header, home da pasta views
