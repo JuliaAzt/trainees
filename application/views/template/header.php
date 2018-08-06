@@ -2,20 +2,11 @@
 <body>
 
 <nav>
-        <h1 class="titulo">
-        <?php 
-        //abre tag php
-
-             // echo mostra na tela o conteudo da variavel titulo
-             //  $dados['titulo'] = "Furry Shop";
-             echo $titulo; 
-
-        //fecha tag php ?>
-
-    </h1>
+    <img  src="<?php echo base_url('/assets/img/logo.png'); ?>" class="logo" >
 
 
-    <h2><?php echo $subtitulo; //  $dados['subtitulo'] = "Produtos";?></h2>
+
+    <h2 class="subtitulo"><?php echo $subtitulo; //  $dados['subtitulo'] = "Produtos";?></h2>
         
     
 
