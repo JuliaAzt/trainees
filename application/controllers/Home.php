@@ -23,7 +23,9 @@ class Home extends CI_Controller {
 		////Carrega os arquivos html-header, home da pasta views
 		//passa dados para que a página possa acessar
 		$this->load->view('template/html-header', $dados); //A pasta template contem o que será usado em todas as páginas
+		$this->load->view('template/header');		
 		$this->load->view('home');
+		$this->load->view('template/footer');
 
 
 

@@ -1,21 +1,7 @@
 
-<body>
-
-    <h1>
-        <?php 
-        //abre tag php
-
-             // echo mostra na tela o conteudo da variavel titulo
-             //  $dados['titulo'] = "Furry Shop";
-             echo $titulo; 
-
-        //fecha tag php ?>
-
-    </h1>
 
 
-    <h2><?php echo $subtitulo; //  $dados['subtitulo'] = "Produtos";?></h2>
-    
+
 <!--IMPRIME OS PRODUTOS -->
         
         <!-- Produto 1 -->
@@ -74,7 +60,3 @@
         <img src=" <?php echo base_url('assets/img/4.jpg');?>">
 
 
-  
-
-</body>
-</html>
