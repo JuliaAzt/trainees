@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |   Para sistemas locais utilizamos http://localhost/NomeDoProjetoAqui/
 |
 */
-$config['base_url'] = 'http://localhost/Trainees/';
+$config['base_url'] = 'http://localhost/FurryShop/';
 
 /*
 |--------------------------------------------------------------------------
